@@ -81,3 +81,6 @@ public class BarAction {
     private ServiceA fooService;
 }
 ```
+
+##关于spring-boot开发知识
+<a href ="http://www.jianshu.com/users/aa6df7dd83ec/latest_articles">spring-boot学习笔记</a>
