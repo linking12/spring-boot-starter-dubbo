@@ -14,10 +14,10 @@ Dubbo是阿里开发的一套分布式通讯框架,Spring-boot是业界比较火
  </dependency>
  <!--依赖于容器-->
  <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-			<version>1.3.1.RELEASE</version>
-	</dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-web</artifactId>
+         <version>1.3.1.RELEASE</version>
+ </dependency>
  ```
 * 在application.properties添加Dubbo的版本信息和客户端超时信息,如下:
 ```
