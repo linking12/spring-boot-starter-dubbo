@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.1.RELEASE</version>
+		<version>1.3.6.RELEASE</version>
 	</parent>
 	<artifactId>spring-boot-starter-dubbo</artifactId>
 	<name>Spring Boot Dubbo Rpc</name>
@@ -17,14 +17,14 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
-		<spring-boot.version>1.3.1.RELEASE</spring-boot.version>
+		<spring-boot.version>1.3.6.RELEASE</spring-boot.version>
 	</properties>
 	<developers>
 		<developer>
 			<id>mingyu</id>
 			<name>mingyu</name>
 			<email>mingyu.lsm@alibaba-inc.com</email>
-			<url>https://work.alibaba-inc.com/work/u/7883</url>
+			<url>http://www.jianshu.com/users/aa6df7dd83ec/latest_articles</url>
 			<roles>
 				<role>开发人员</role>
 			</roles>
@@ -48,6 +48,10 @@
 				<exclusion>
 					<artifactId>spring</artifactId>
 					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>netty</artifactId>
+					<groupId>org.jboss.netty</groupId>
 				</exclusion>
 			</exclusions>
 		</dependency>
